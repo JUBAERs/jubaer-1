@@ -1,0 +1,110 @@
+
+@media (max-width: 1300px) {
+    .home .max-width {
+      margin-left: 0px;
+    }
+  }
+  
+  @media (max-width: 1104px) {
+    .about .about-contect .left img {
+      height: 350px;
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 947px) {
+    .max-width {
+      padding: 0 50px;
+    }
+    .menu-btn {
+      display: block;
+      z-index: 999;
+    }
+    .menu-btn i.active:before {
+      content: "\f00d";
+    }
+    .navBar .menu {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background: #111;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+    }
+    .navBar .menu.active {
+      left: 0;
+    }
+    .navBar .menu li {
+      display: block;
+    }
+    .navBar .menu li a {
+      display: inline-block;
+      margin: 20px;
+      font-size: 25px;
+    }
+    .home .home-contect .text-2 {
+      font-size: 70px;
+    }
+    .home .home-contect .text-3 {
+      font-size: 35px;
+    }
+    .home .home-contect a {
+      font-size: 23px;
+      padding: 10px 30px;
+    }
+    .max-width {
+      width: 100%;
+    }
+    .about .about-contect .column {
+      width: 50%;
+    }
+    .about .about-contect .left {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 60px;
+    }
+    .about .about-contect .right {
+      flex: 100%;
+    }
+    .services .services-contect .card {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .max-width {
+      padding: 0 23px;
+    }
+    .home .home-contect .text-2 {
+      font-size: 60px;
+    }
+    .home .home-contect .text-3 {
+      font-size: 32px;
+    }
+    .home .home-contect a {
+      font-size: 20px;
+      /* padding: 9px 25px; */
+    }
+    .services .services-contect .card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .home .home-contect .text-2 {
+      font-size: 50px;
+    }
+    .home .home-contect .text-3 {
+      font-size: 27px;
+    }
+  }
+  
